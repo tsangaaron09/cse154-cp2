@@ -1,0 +1,103 @@
+/*
+  Aaron Tsang
+  April 22, 2020
+  Section AL with Shriya Kurpad
+
+  This is the CSS page to style the 'index.html' page.
+  It styles for the general scheme of the page, holding the same theme as the
+  user traverses different 'screens'.
+*/
+div p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 75px;
+}
+
+div {
+  align-content: center;
+}
+
+div, body, article, #q3-buttons, .resume {
+  display: flex;
+}
+
+div, body, article {
+  justify-content: center;
+}
+
+div, body, article, .resume {
+  flex-direction: column;
+}
+
+article img, #enter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#enter, article img, #q3-button {
+  font-size: 25px;
+}
+
+#enter, article {
+  color: #2e2e2e;
+}
+
+body, article {
+  height: 100vh;
+}
+
+#enter {
+  width: 30%;
+  height: 70px;
+  border-radius: 15px;
+  visibility: hidden;
+}
+
+body {
+  flex-wrap: wrap;
+  background-color: #2e2e2e;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.hidden {
+  display: none;
+}
+
+article {
+  align-content: flex-start;
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 0px;
+}
+
+article h1 {
+  font-size: 60px;
+}
+
+article input {
+  width: 50%;
+  height: 100px;
+  font-size: 40px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #2e2e2e;
+}
+
+article img {
+  margin-top: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+#q3-buttons {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#q3-buttons button {
+  border: 3px solid;
+  width: 70px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 5px;
+}

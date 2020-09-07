@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+  Name: Aaron Tsang
+  Date: April 22, 2020
+  Section: CSE 154 AL
+
+  This is the html file for CP2. It includes all the content relevant to
+  spec and links to the "styles.css" stylesheet and the "index.js" script. This is a basic
+  information card that will display name, school, and current classes.
+  -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Aaron's InfoCard Builder</title>
+  </head>
+  <body>
+    <!-- Introduction page-->
+    <div>
+      <p>Welcome to My InfoCard Builder</p>
+      <button type="button" id="enter">Enter</button>
+    </div>
+
+    <!-- Q1 -->
+    <article id="name" class="hidden">
+      <h1>What is your full name?</h1>
+      <input type="text" id="full-name">
+      <!-- Image was found at https://icons8.com/icons/set/right-arrow -->
+      <img src="img/right-arrow.png" alt="right arrow">
+    </article>
+
+    <!-- Q2 -->
+    <article id="school" class="hidden">
+      <h1>Where do you attend school?</h1>
+      <input type="text" id="uni">
+      <img src="img/right-arrow.png" alt="right arrow">
+    </article>
+
+    <!-- Q3 -->
+    <article id="classes" class="hidden">
+      <h1>What classes are you currently taking at </h1>
+      <div id="q3-buttons">
+        <input type="text">
+        <button type="button">ADD</button>
+      </div>
+      <img src="img/right-arrow.png" alt="right arrow">
+      <ul id="classlist">
+      </ul>
+    </article>
+
+    <!-- Resume -->
+    <article id="resume" class="hidden">
+    </article>
+  </body>
+</html>
